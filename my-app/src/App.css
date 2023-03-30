@@ -1,9 +1,10 @@
 body {
   margin: 0;
+  color:#848180               /*REMOVE*/
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0; /* Remove top margin */
+  margin-top: 0; 
 }
 
 .App {
@@ -14,8 +15,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   height: calc(842px / 5); /* Height of 1/5 of an A4 page */
   text-align: center;
-  background-color: aqua;
-  color:slategray
+  background-color: #e7f5ff;
 }
 
 .main {
@@ -25,17 +25,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .left-side {
   width: 30%;
-  margin: 5%;
+  margin: 2%;
   text-align: center;
   position: absolute;
   top: 0;
   left: 0;
-  background-color: bisque;
-  color:slategray
+  background-color: #fff0ed;
 }
 
 .right-side {
-  width: 60%;
+  width: 65%;
   margin-right: 2%;;
   margin-left: 2%;
   color:slategray

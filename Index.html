@@ -1,89 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="mystyle.css">
-</head>
-<body>
+  <head>
+    <style>
+body
+ {
+  margin: 0;
+  color:#848180               /*REMOVE*/
+}
 
-<h1>Nuno Valente Antunes</h1>
-        <p>www.github.com/Nuno22</p>
-        <p>www.linkedin.com/in/nuno-v-antunes</p>
-      </div>
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0; 
+}
 
+.App {
+  min-height: 842px; /* Minimum height of an A4 page */
+}
 
-      <div className="main">
-        <div className="right-side">
-          <div className="section">
-            <h2>Junior DEV</h2>
-            <h3>Fashion Social Platform</h3>
-            <p>Contributed to a project that involved connecting Machine Learning to Social Network. My responsibilities included researching and implementing Google Vision and Google ML tools.The backend was developed in Spring (Java) and the frontend in React (Javascript)</p>
-          </div>
-          <div className="section">
-            <h2>QA Engineer</h2>
-            <h3>Android Automotive Appstore</h3>
-            <p>Designed test cases and test flows, performed functional testing and documented my findings. Additionally, I created automated functions to process and analyze the data fed to the sales team, streamlining the process and increasing efficiency. To conduct testing, I used tools like Postman, Android Studio, and Charles. In addition, I wrote scripts in Python, Bash, and shell to enable some tests due to the lack of hardware. I also managed the hardware used for testing.</p>
-          </div>
-          <div className="section">
-            <h2>QA Engineer</h2>
-            <h3>Section title</h3>
-            <p>Wrote comprehensive test cases for the entire website test flow and ran automated tests. I also checked the code's cleanliness in DataDog to ensure it met the required standards. Lastly, I created extensive documentation to facilitate the development and maintenance of the project.</p>
-          </div>
+.header {
+  margin-top: 0;
+  height: calc(842px / 5); /* Height of 1/5 of an A4 page */
+  text-align: center;
+  background-color: #e7f5ff;
+}
 
-          <ul className="tech-list">
-            <div>
-            <li><img src="tech-image.png" alt="Tech image" /><span>Tech name</span></li>
-            {"CUCUMBER"}
-            <li><img src="tech-image.png" alt="Tech image" /><span>Tech name</span></li>
-            {"SELENIUM"}
-            <li><img src="tech-image.png" alt="Tech image" /><span>Tech name</span></li>
-            {"POSTMAN"}
-            <li><img src="tech-image.png" alt="Tech image" /><span>Tech name</span></li>
-            {"CONFLUENCE"}
-            <li><img src="tech-image.png" alt="Tech image" /><span>Tech name</span></li>
-            {"JIRA"}
-            <li><img src="tech-image.png" alt="Tech image" /><span>Tech name</span></li>
-            {"SCRUM"}
-            </div>
-            <div>
-            <li><img src="tech-image.png" alt="Tech image" /><span>Tech name</span></li>
-            {"SQL"}
-            <li><img src="tech-image.png" alt="Tech image" /><span>Tech name</span></li>
-            {"GIT"}
-            <li><img src="tech-image.png" alt="Tech image" /><span>Tech name</span></li>
-            {"JAVA"}
-            <li><img src="tech-image.png" alt="Tech image" /><span>Tech name</span></li>
-            {"PYTHON"}
-            <li><img src="tech-image.png" alt="Tech image" /><span>Tech name</span></li>
-            {"BASH/SHELL"}
-            <li><img src="tech-image.png" alt="Tech image" /><span>Tech name</span></li>
-            {"JENKINS"}
-            </div>
-          </ul>
-        </div>
-      </div>
+.main {
+  display: flex;
+  justify-content: flex-end;
+}
 
+.left-side {
+  width: 30%;
+  margin: 2%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff0ed;
+}
 
-      <div className="left-side">
-        <div>
-          <p>As a curious and driven individual, I thrive on challenges, Im eager to learn and willing play different roles. I'm seeking a comprehensive understanding of the company and its operations, allowing me to identify areas where I can make meaningful contributions. At this stage in my career, I’m focused on improving my technical skills.</p>
-        </div>
-        <div>
-          <h2>Skills</h2>
-          <ul>
-            <li>Designing Test Plans</li>
-            <li>Documentation</li>
-            <li>Comunication</li>
-            <li>Automation</li>
-            <li>Coding</li>
-          </ul>
-          
-          <h2>Education</h2>
-          <p>ISCTE-IUL</p>
-          <p>Computer Engineering</p>
+.right-side {
+  width: 65%;
+  margin-right: 2%;;
+  margin-left: 2%;
+  color:slategray
+}
 
-          <h2>Language</h2>
-        </div>
-      </div>
-    </div>
-    
- <\body>
+.section {
+  margin-bottom: 20px;
+}
+
+.tech-list img {
+  height: 20px;
+  margin-right: 5px;
+}
+    </style>
+  </head>
+  <body>
+<div class="App"><div class="header"><h1>Nuno Valente Antunes</h1><p>www.github.com/Nuno22</p><p>www.linkedin.com/in/nuno-v-antunes</p></div><div class="main"><div class="right-side"><div class="section"><h2>Junior DEV</h2><h3>Fashion Social Platform</h3><p>Contributed to a project that involved connecting Machine Learning to Social Network. My responsibilities included researching and implementing Google Vision and Google ML tools.The backend was developed in Spring (Java) and the frontend in React (Javascript)</p></div><div class="section"><h2>QA Engineer</h2><h3>Android Automotive Appstore</h3><p>Designed test cases and test flows, performed functional testing and documented my findings. Additionally, I created automated functions to process and analyze the data fed to the sales team, streamlining the process and increasing efficiency. To conduct testing, I used tools like Postman, Android Studio, and Charles. In addition, I wrote scripts in Python, Bash, and shell to enable some tests due to the lack of hardware. I also managed the hardware used for testing.</p></div><div class="section"><h2>QA Engineer</h2><h3>Section title</h3><p>Wrote comprehensive test cases for the entire website test flow and ran automated tests. I also checked the code&#x27;s cleanliness in DataDog to ensure it met the required standards. Lastly, I created extensive documentation to facilitate the development and maintenance of the project.</p></div><ul class="tech-list"><div><li><img src="tech-image.png" alt="Tech image"/><span>Tech name</span></li>CUCUMBER<li><img src="tech-image.png" alt="Tech image"/><span>Tech name</span></li>SELENIUM<li><img src="tech-image.png" alt="Tech image"/><span>Tech name</span></li>POSTMAN<li><img src="tech-image.png" alt="Tech image"/><span>Tech name</span></li>CONFLUENCE<li><img src="tech-image.png" alt="Tech image"/><span>Tech name</span></li>JIRA<li><img src="tech-image.png" alt="Tech image"/><span>Tech name</span></li>SCRUM</div><div><li><img src="tech-image.png" alt="Tech image"/><span>Tech name</span></li>SQL<li><img src="tech-image.png" alt="Tech image"/><span>Tech name</span></li>GIT<li><img src="tech-image.png" alt="Tech image"/><span>Tech name</span></li>JAVA<li><img src="tech-image.png" alt="Tech image"/><span>Tech name</span></li>PYTHON<li><img src="tech-image.png" alt="Tech image"/><span>Tech name</span></li>BASH/SHELL<li><img src="tech-image.png" alt="Tech image"/><span>Tech name</span></li>JENKINS</div></ul></div></div><div class="left-side"><div><p>As a curious and driven individual, I thrive on challenges, Im eager to learn and willing play different roles. I&#x27;m seeking a comprehensive understanding of the company and its operations, allowing me to identify areas where I can make meaningful contributions. At this stage in my career, I’m focused on improving my technical skills.</p></div><div><h2>Skills</h2><ul><li>Designing Test Plans</li><li>Documentation</li><li>Comunication</li><li>Automation</li><li>Coding</li></ul><h2>Education</h2><p>ISCTE-IUL</p><p>Computer Engineering</p><h2>Language</h2></div></div></div>
+  </body>
+</html>
