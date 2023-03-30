@@ -1,15 +1,43 @@
 body {
   margin: 0;
-  color:#848180               /*REMOVE*/
+  color:#848180            
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2{
+  font-family: 'Bakbak One', sans-serif;
   margin: 0; 
+}
+
+h1{
+  width: fit-content;
+  font-size: 5vw;
+}
+
+h3, h4, h5, p{
+  font-family: Cambria;
+  margin: 0;
+  margin-left: 10px;
+}
+
+h3{
+  font-size: 30px;
+}
+
+h4{
+  font-size: 20px;
+}
+
+h5{
+  margin: 0;
 }
 
 img{
   width: 60%;
   margin-top: 2%;
+}
+
+ul{
+  text-align: left;
 }
 
 .App {
@@ -18,10 +46,10 @@ img{
 
 .header {
   margin-top: 0;
-  height: calc(842px / 5); /* Height of 1/5 of an A4 page */
-  text-align: center;
+  height: fit-content;
+  text-align: left;
   background-color: #e7f5ff;
-  padding-left: 30%;
+  padding-left: 35%;
 }
 
 .main {
@@ -44,13 +72,4 @@ img{
   width: 65%;
   margin-right: 2%;;
   margin-left: 2%;
-}
-
-.section {
-  margin-bottom: 20px;
-}
-
-.tech-list img {
-  height: 20px;
-  margin-right: 5px;
 }
