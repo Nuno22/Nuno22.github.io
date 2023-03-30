@@ -85,6 +85,7 @@ function App() {
           <h2>Language</h2>
           <p>Portuguese Native</p>
           <p>English Fluent</p>
+          <br></br>
         </div>
       </div>
     </div>
