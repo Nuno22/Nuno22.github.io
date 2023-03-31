@@ -4,13 +4,9 @@ body {
 }
 
 h1, h2{
+  font-size: 5vw;
   font-family: 'Bakbak One', sans-serif;
   margin: 0; 
-}
-
-h1{
-  width: fit-content;
-  font-size: 5vw;
 }
 
 h3, h4, h5, p{
@@ -38,12 +34,14 @@ img{
 }
 
 ul{
+  margin-left: 2%;
   text-align: left;
   color: #9ab8ca;
 }
 
-.App {
-  min-height: 842px; /* Minimum height of an A4 page */
+a{
+  text-decoration:none;
+  color: #848180;
 }
 
 .header {
@@ -74,4 +72,9 @@ ul{
   width: 65%;
   margin-right: 2%;;
   margin-left: 2%;
+}
+
+.image{
+  width: 20%;
+  text-align: right;
 }
